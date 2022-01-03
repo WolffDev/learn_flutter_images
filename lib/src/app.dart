@@ -36,7 +36,7 @@ class _AppState extends State<App> {
           onPressed: fetchImage,
           child: const Icon(Icons.add),
         ),
-        appBar: AppBar(title: const Text('Hot reload works!! ')),
+        appBar: AppBar(title: const Text('Hot reload works!! 123')),
         body: ImageList(images),
       ),
     );
